@@ -21,10 +21,10 @@
     "nodejs",
     "typescript",
     "gcp",
-	"google-cloud",
+    "google-cloud",
     "cloud-tasks",
     "trpc",
-	"fetch"
+    "fetch"
   ],
   "prettier": {
     "semi": true,
@@ -51,5 +51,10 @@
     "prettier": "^2.8.4",
     "ts-jest": "^29.0.5",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@google-cloud/tasks": "^3.1.1",
+    "@trpc/client": "^10.13.2",
+    "node-fetch": "^3.3.0"
   }
 }
