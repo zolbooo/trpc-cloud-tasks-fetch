@@ -1,0 +1,55 @@
+{
+  "name": "trpc-cloud-tasks-fetch",
+  "version": "1.0.0",
+  "description": "Small utility library for tRPC HTTP link to create GCP Cloud Task",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zolbooo/trpc-cloud-tasks-fetch.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "gcp",
+	"google-cloud",
+    "cloud-tasks",
+    "trpc",
+	"fetch"
+  ],
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "author": "Zolboobayar Gantumur <zolboobayar@metainc.mn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zolbooo/trpc-cloud-tasks-fetch/issues"
+  },
+  "homepage": "https://github.com/zolbooo/trpc-cloud-tasks-fetch#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.4.2",
+    "prettier": "^2.8.4",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  }
+}
