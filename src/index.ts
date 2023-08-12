@@ -1,5 +1,4 @@
 import { google } from '@google-cloud/tasks/build/protos/protos';
-import { Headers } from 'node-fetch';
 import { CloudTasksClient } from '@google-cloud/tasks';
 import { FetchEsque, ResponseEsque } from '@trpc/client/dist/internals/types';
 
@@ -32,22 +31,12 @@ export function createCloudTaskFetcher(
 
     const [response] = await client.createTask({ parent: queueName, task });
     return {
-      headers: new Headers(),
-      ok: true,
-      redirected: true,
-      status: 201,
-      statusText: 'Created',
-      type: 'basic',
-      url,
       json: async () => ({
         result: {
           type: 'data',
           data: { success: true, taskName: response.name },
         },
       }),
-      clone() {
-        return this;
-      },
     } satisfies ResponseEsque;
   };
 }
