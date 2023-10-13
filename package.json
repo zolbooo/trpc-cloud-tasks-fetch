@@ -18,7 +18,7 @@
     "url": "git+https://github.com/zolbooo/trpc-cloud-tasks-fetch.git"
   },
   "engines": {
-    "node": ">=16.0.0 <17.0.0 || >=18.0.0 <19.0.0"
+    "node": ">=18.0.0 <19.0.0 || >=20.0.0 <21.0.0"
   },
   "keywords": [
     "nodejs",
