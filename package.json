@@ -1,6 +1,6 @@
 {
   "name": "trpc-cloud-tasks-fetch",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Small utility library for tRPC HTTP link to create GCP Cloud Task",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
